@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('./ttf/gilroy-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url('./ttf/gilroy-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'gilroy-bold', sans-serif;
+}
+
+.top {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    flex-wrap: wrap;
+
+ 
+}
+
+
+.div_sourse {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+/* Логотип */
+.img_head {
+    height: 40px;
+}
+
+/* Контейнер логотипа */
+.logo__head {
+    display: flex;
+    align-items: center;
+}
+
+/* Ссылки в меню */
+.header_link {
+    font-family: Gilroy-Medium;
+    text-decoration: none;
+    color: black;
+    text-underline-position: from-font;
+}
+
+/* Основной контент */
+.top___content {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Информационный блок */
+.top__info {
+    width: 522px;
+    height: 374px;
+    margin-right: 40px;
+}
+
+/* Заголовок */
+.title {
+    margin-bottom: 20px;
+    font-family: Gilroy-Bold;
+    text-align: left;
+    font-size: 60px;
+}
+
+/* Подзаголовок */
+.subtitle {
+    margin-bottom: 20px;
+    font-family: Gilroy-Medium;
+    text-align: left;
+    font-size: 20px;
+    color: rgba(136, 136, 136, 1);
+}
+
+/* кнопка */
+.button {
+    padding: 10px 30px;
+    font-size: 16px;
+    
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: white; 
+    color: gray;
+}
+/* после наведения на кнопку */
+.button:hover{
+    background-color: rgb(255, 94, 0);
+     color: white;
+}
+
+/* Блок с изображением */
+.top_img {
+    width: 610px;
+    height: 372px;
+}
+
+/* Изображение */
+.img_top {
+    height: 100%;
+}
+
+.top___logos {
+    justify-content: center;
+}
+
+.black {
+    margin-left: 10px;
+    margin-right: -4px;
+    font-size: 25px;
+}
+
+.orange {
+    color: orange;
+    font-size: 25px;
+}
